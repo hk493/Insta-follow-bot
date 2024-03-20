@@ -27,7 +27,7 @@ def search(tag):
     time.sleep(random.randint(3, 4))
 
 #Make Auto Likes
-def like():
+def like(200):
     global like_cnt
     #Exception handling
     try:
@@ -44,8 +44,8 @@ def like():
 if __name__ == '__main__':
 
 #Write Username and password
-    username = 'your_username'
-    password = 'your_password'
+    username = 'hoto_tajima'
+    password = 'Hoto0325'
 
     #Tag Setting
     tags = ['car','bikelover','nickiminaj','arianagrande']
